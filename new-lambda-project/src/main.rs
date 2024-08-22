@@ -4,6 +4,7 @@ use lambda_http::{run, service_fn, tracing, Body, Error, Request, RequestExt, Re
 /// Write your code inside it.
 /// There are some code example in the following URLs:
 /// - https://github.com/awslabs/aws-lambda-rust-runtime/tree/main/examples
+/// Just here to commit
 async fn function_handler(event: Request) -> Result<Response<Body>, Error> {
     // Extract some useful information from the request
     let who = event
